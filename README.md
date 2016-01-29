@@ -1,26 +1,7 @@
-# Ember-cli-deploy-dist-dir
+# ember-cli-deploy-dist-dir
 
-This README outlines the details of collaborating on this Ember addon.
+This plugin is for setting distDir and distFiles context parameters when not using the ember-cli-deploy-build plugin. This allows you to utilize plugins that rely on ember-cli-deploy-build when you are building your app outside of the deploy pipeline.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+* ember install ember-cli-deploy-dist-dir
