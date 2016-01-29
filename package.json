@@ -2,7 +2,7 @@
   "name": "ember-cli-deploy-dist-dir",
   "version": "0.1.0",
   "description": "Set dist folder and files context values when not using ember-cli-deploy-build.",
-  "repository": "https://github.com/ololabs/ember-cli-deploy-olo-pack",
+  "repository": "",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -12,7 +12,6 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -44,7 +43,8 @@
     "ember-cli-deploy-plugin"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.5"
+    "ember-cli-babel": "^5.1.5",
+    "ember-cli-deploy-plugin": "^0.2.1"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
