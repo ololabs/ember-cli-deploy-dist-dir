@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-dist-dir",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Set dist folder and files context values when not using ember-cli-deploy-build.",
   "repository": "",
   "directories": {
