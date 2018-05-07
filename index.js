@@ -1,4 +1,3 @@
-/* eslint-env node */
 'use strict';
 const BasePlugin = require('ember-cli-deploy-plugin');
 const glob = require('glob');
