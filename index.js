@@ -15,7 +15,7 @@ module.exports = {
         distDir: 'tmp/deploy-dist',
       },
 
-      willBuild: function(context) {
+      willBuild: function(/* context */) {
         const distDir = this.readConfig('distDir');
         const filePattern = this.readConfig('filePattern');
 
