@@ -31,11 +31,5 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  },
-  "resolutions": {
-    "clean-css": "4.1.11",
-    "moment": "2.19.3",
-    "lodash": "4.17.12",
-    "braces": "2.3.1"
   }
 }
